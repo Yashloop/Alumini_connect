@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/ic_postt"
+            android:title="Post" />
+        <item
+            android:id="@+id/nav_job_alert"
+            android:icon="@drawable/ic_postt"
+            android:title="Job Alerts" />
+        <item
+            android:id="@+id/nav_internship"
+            android:icon="@drawable/ic_postt"
+            android:title="Internships" />
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/ic_post"
+            android:title="Information" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_post"
+            android:title="Event Calendar" />
+
+
+        <!-- 🚀 New Chat item added -->
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_post"
+        android:title="Chat" />
+    </group>
+</menu>

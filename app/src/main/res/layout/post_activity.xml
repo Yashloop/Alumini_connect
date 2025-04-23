@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/postScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FAFAFA"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/postContentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header Title -->
+        <TextView
+            android:text="Create a Post"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Post Type Label -->
+        <TextView
+            android:text="Select Post Type"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp" />
+
+        <!-- Spinner Dropdown -->
+        <Spinner
+            android:id="@+id/postTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Event Date Picker (Visible only for Event type) -->
+        <LinearLayout
+            android:id="@+id/eventDateLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/eventDateLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Date:"
+                android:textSize="16sp"
+                android:textColor="#444444"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/selectEventDateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pick Date"
+                android:textSize="14sp"
+                android:backgroundTint="#1E88E5"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
+        </LinearLayout>
+
+        <!-- Post Content Input -->
+        <EditText
+            android:id="@+id/postContentEditText"
+            android:hint="Share your news, opportunity, or update..."
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/bg_edittext"
+            android:padding="16dp"
+            android:textColor="#212121"
+            android:textSize="15sp"
+            android:gravity="top|start"
+            android:scrollbars="vertical"
+            android:overScrollMode="always"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/postButton"
+            android:text="Post Now"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1E88E5"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp" />
+    </LinearLayout>
+</ScrollView>

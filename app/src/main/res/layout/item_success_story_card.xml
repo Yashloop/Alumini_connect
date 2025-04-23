@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="6dp"
+    android:backgroundTint="#F9F9F9"> <!-- Light professional tone -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"> <!-- Ensure no override -->
+
+        <TextView
+            android:id="@+id/storyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Doe"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#1E1E1E" />
+
+        <TextView
+            android:id="@+id/storyDept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CSE 2015"
+            android:textColor="#555555"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/storyContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Built a startup acquired by Google."
+            android:textColor="#2A2A2A"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

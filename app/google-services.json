@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "592398722701",
+    "project_id": "vec-connect-65938",
+    "storage_bucket": "vec-connect-65938.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592398722701:android:60cc748b7a350a734664c4",
+        "android_client_info": {
+          "package_name": "com.example.vecalumini"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk-0F9iK16yu3cljsl8huTcBvIi2ZSKcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
