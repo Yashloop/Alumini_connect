@@ -86,28 +86,18 @@ To create a unified platform that:
   <img src="your-screenshot-url-here" width="250"/>
   <img src="your-screenshot-url-here" width="250"/>
 </p>
+## 📲 Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2569855f-b9f8-41d3-9cdf-11925571ae03" width="250"/>
-  <img src="https://github.com/user-attachments/assets/73a6f4a8-b2f6-441e-95fd-97089c0f0d25" width="250"/>
-  <img src="https://github.com/user-attachments/assets/2a9b6fc9-e6c6-4620-8251-d23269fbc63e" width="250"/>
+  <img src="https://github.com/user-attachments/assets/2569855f-b9f8-41d3-9cdf-11925571ae03" width="200"/>
+  <img src="https://github.com/user-attachments/assets/73a6f4a8-b2f6-441e-95fd-97089c0f0d25" width="200"/>
+  <img src="https://github.com/user-attachments/assets/2a9b6fc9-e6c6-4620-8251-d23269fbc63e" width="200"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/66d979bb-97c8-45b5-be1a-06d7fd11cda2" width="250"/>
-  <img src="https://github.com/user-attachments/assets/334c3a6e-da83-4d1a-87bf-edc501db1799" width="250"/>
-  <img src="https://github.com/user-attachments/assets/f03ca0b1-fc2f-4557-acfa-68b1be4d077b" width="250"/>
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cbbdaf9f-a719-46ce-9ee2-3a4761b3dd0d" width="250"/>
-  <img src="https://github.com/user-attachments/assets/5208fe7b-de38-4dfe-b818-a5a8f29333d7" width="250"/>
-  <img src="https://github.com/user-attachments/assets/874c4a6c-a855-4339-8e71-4754bf95dc5c" width="250"/>
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/012a863e-69cf-47ce-9aef-411b974951a4" width="250"/>
-  <img src="https://github.com/user-attachments/assets/be9eecd5-e195-4144-b9e3-0e3a1513b1ba" width="250"/>
+  <img src="https://github.com/user-attachments/assets/66d979bb-97c8-45b5-be1a-06d7fd11cda2" width="200"/>
+  <img src="https://github.com/user-attachments/assets/334c3a6e-da83-4d1a-87bf-edc501db1799" width="200"/>
+  <img src="https://github.com/user-attachments/assets/f03ca0b1-fc2f-4557-acfa-68b1be4d077b" width="200"/>
 </p>
 
 ---
